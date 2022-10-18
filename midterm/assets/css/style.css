@@ -5,8 +5,8 @@ body {
 
 p {
     font-family: 'Montserrat', serif;
-    font-size: 25px;
-    line-height: 40px;   
+    font-size: 20px;
+    line-height: 30px;   
 }
 
 #symbol {
@@ -66,7 +66,7 @@ h2 {
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 #description {
@@ -141,16 +141,6 @@ h6 {
     margin-bottom: 0px;
 }
 
-.cc {
-    margin-right: 3.5%;                         /*spacings */
-    color: black;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    gap: 3%;
-}
-
 .food {
     display: flex;
     padding-top:0px;
@@ -161,17 +151,17 @@ h6 {
 }
 
 .col.description {
-    flex: 0 0 1500px;                               /*description column width */
-    padding-left: 80px;
+    flex: 0 0 1450px;                               /*description column width */
+    padding-left: 100px;
 
 }
 
-.col.cash, .col.credit {
-    flex: 0 0 120px;  
-} 
+.col.credit {
+    padding-right: 60px;
+}
 
-.food p {
-    font-size: 180%;
+div p {
+    font-size: 170%;
     line-height: 170%;
 }
 
