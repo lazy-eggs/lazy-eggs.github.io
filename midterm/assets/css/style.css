@@ -15,10 +15,10 @@ p {
 
 .navigation {
     font-family: 'Montserrat', serif;
-    font-size: 30px;
+    font-size: 25px;
     margin: 30px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 
     display: flex;
     flex-direction: row;
