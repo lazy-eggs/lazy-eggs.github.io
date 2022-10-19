@@ -150,14 +150,18 @@ h6 {
     flex:1;
 }
 
-.col.description {
+.coldescription {
     flex: 0 0 1450px;                               /*description column width */
     padding-left: 100px;
 
 }
 
+.col.cash, .col.credit {
+    flex: 0 0 125px;
+}
+
 .col.credit {
-    padding-right: 60px;
+    padding-right: 100px;
 }
 
 div p {
