@@ -1,0 +1,139 @@
+/* general */
+body {
+    background-color: #bde0fe;
+}
+
+.screen {
+    width: 1440px;
+    height: 768px;
+}
+
+.button {
+    display: block;
+    margin-left: auto;
+}
+
+img {
+    display: block;
+    max-width:600px;
+    max-height: 600px;
+    width: auto;
+    height: auto;
+  }
+
+/* headings */
+
+h1 {
+    color: #97BAD8;
+
+    text-align: center;
+    font-family: "Fredoka One";
+    font-size: 100px;
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ecf8f8;
+}
+
+h2 {
+    color: #553838;
+
+    text-align: right;
+    font-family: "Fredoka One";
+    font-size: 40px;
+    
+    padding-top: 5%;
+    padding-right: 5%;
+}
+
+/* screen 1, welcome to appa's life */
+
+#cuteappa {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+    padding-top: 5%;
+}
+
+/* screen 2, just kidding */
+
+#funnyappa {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* screen 3, this is appa */
+
+#sunnyappa {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    color: #314144;
+
+    text-align: center;
+    font-family: "Inter";
+    font-size: 25px;
+    line-height: 40px;
+
+}
+
+/* screen 3, the signs */
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    color:#314144;
+
+    font-family: "Fredoka One";
+    font-size: 40px;
+
+}
+
+#virgo {
+    max-width: 300px;
+    max-height: 300px;
+
+    padding-right: 60px;
+}
+
+#tiger {
+    max-width: 230px;
+    max-height: 230px;
+
+    padding-right: 60px;
+}
+
+
+/* feature 1 */
+
+#cuteappa {
+    animation: upDown 1s linear infinite;
+    position: relative;
+  }
+  
+@keyframes upDown {
+    0%, 100% {
+      bottom: 40px;
+    }
+    50% {
+      bottom: 70px;
+    }
+}
+
+/* feature 2 */
+
+.sign {
+    transition: transform 1s;
+}
+
+.sign:hover {
+    transform: scale(1.1);
+}
